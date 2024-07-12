@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( Valorant Picker C )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( Valorant Picker C Valorant Picker C.cpp )
+target_link_libraries( DValorant Picker C ${OpenCV_LIBS} )
